@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro de Usuario</title>
+</head>
+<body><!--titulo da pagina-->
+    <h1>Cadastre</h1>
+    <form action="submit.php" method="POST">
+        <!--Campo para inserção do nome do usuario-->
+
+        <label for="username">Nome de Usuario:</label>
+        <input type="text" id="username" name="username" required><br><br>
+        <!--Campo para inserção do email-->
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <!--Campo para inserção da senha-->
+        <label for="password">Senha;</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <input type="submit" value="Registrar">
+        </form>          
+</body>
+</html>
